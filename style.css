@@ -1,0 +1,130 @@
+*{
+    font-family: 'Inter';
+    background-color: #FFFFFF;
+}
+
+body{
+    margin: 0;
+}
+#superiormenu{
+    background-color: #303030;
+}
+
+#superiormenu-title{
+    color:#FFFFFF;
+    background-color: #303030;
+    padding: 206px 0px 0px 62px;
+    margin: 0%;
+    font-size: 60px;
+    font-weight: 600;
+}
+#superiormenu-subtitle{
+    color:#FFFFFF;
+    background-color: #303030;
+    padding: 20px 0px 149px 62px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#infomenu{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    margin: 0px;
+
+}
+#emp{
+    padding: 96px 99px 66px 171px;
+    background-color: #F9F9F9;
+}
+#anos{
+    padding: 96px 99px 66px 0px;
+    background-color: #F9F9F9;
+}
+#projetos{
+    padding: 96px 99px 66px 0px;
+    background-color: #F9F9F9;
+}
+.numbers{
+    color: #000000;
+    background-color: #F9F9F9;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+.infotext{
+    color: #000000;
+    background-color: #F9F9F9;
+    font-weight: 400;
+    font-size: 20px;
+}
+#history{
+    background-color: #FFFFFF;
+    display:grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#historytext{
+    background-color: #FFFFFF;
+}
+#texttitle{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 304px 0px 0px 77px;
+}
+#text{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0px 0px 314px 77px;
+    padding: 0%;
+}
+#image{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin: 82px 54px 92px 64px;
+}
+
+#form{
+    background-color: #303030;
+    text-align: center;
+}
+#form-title{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 87px 248px 0px 248px;
+    font-size: 32px;
+    font-weight: 700;
+}
+input{
+    background-color: #FFFFFF;
+    margin: 25px 466px 40px 466px;
+    border: 0px;
+    border-radius: 10px;
+    width: 410px;
+    height: 25px;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 700;
+    width: 286px;
+    height: 74px;
+    margin: 40px 577px 87px 577px;
+    border: 0px;
+    border-radius: 10px;
+}
+#inputpart{
+    background-color: #303030;
+}
