@@ -47,10 +47,11 @@
     <!--form section-->
     <div id="form">
         <h3 id="form-title">Conheça mais sobre nossos serviços:</h3>
-        <form id="inputpart">
-            <input type="text" placeholder="Nome"><br>
-            <input type="email" placeholder="E-mail"><br>
-            <button>Fale Conosco</button>
+        <form id="inputpart" action="https://api.sheetmonkey.io/form/cqx8W9EifedpZyE1Wu6WsF" method="POST">
+            <input type="text" placeholder="Nome" name="Name" required><br>
+            <input type="email" placeholder="E-mail" name="Email" required><br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time">
+            <button type="submit">Fale Conosco</button>
         </form>
     </div>
 </body>

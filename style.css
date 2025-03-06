@@ -33,7 +33,7 @@ body{
     columns: auto;
     align-items: center;
     margin: 0px;
-
+    background-color: #F9F9F9;
 }
 #emp{
     padding: 96px 99px 66px 171px;
@@ -49,10 +49,13 @@ body{
 }
 .numbers{
     color: #000000;
-    background-color: #F9F9F9;
     font-size: 40px;
     font-weight: 600;
     margin-bottom: -20px;
+ }
+.numbers:hover{
+    transform: translateY(-7px);
+    transition-duration: 1s;
 }
 .infotext{
     color: #000000;
@@ -124,7 +127,13 @@ button{
     margin: 40px 577px 87px 577px;
     border: 0px;
     border-radius: 10px;
+    cursor: pointer;
 }
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 3px 3px 0px #341e03;
+}
+
 #inputpart{
     background-color: #303030;
 }
